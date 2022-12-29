@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* import { useEffect } from "react";
+import { getAllUsersLists } from "./api";
+import "./App.css";
+
+function App() {
+  useEffect(() => {
+    apiCall();
+  }, []);
+
+  const apiCall = async () => {
+    const data = await getAllUsersLists();
+    console.log(data.data.users);
+  };
+
+  return (
+  <div className="App">This is the main</div>
+  );
+}
+
+export default App; */
